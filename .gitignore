@@ -1,0 +1,6 @@
+# Ignore virtual environment and data files
+venv/
+__pycache__/
+*.csv
+*.pkl
+*.log
