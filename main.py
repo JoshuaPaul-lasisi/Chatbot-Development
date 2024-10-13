@@ -4,7 +4,7 @@ from scripts.response_generation import get_response
 from scripts.data_preprocessing import clean_text
 
 # Load the trained model and vectorizer
-with open('../models/intent_classifier.pkl', 'rb') as f:
+with open('./models/intent_classifier.pkl', 'rb') as f:
     model, vectorizer = pickle.load(f)
 
 # Frontend design
